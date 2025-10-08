@@ -19,6 +19,59 @@ body {
     margin: 0 auto;
     padding: 0 250px;
 }
+/* Раздел header */
+
+.header_box {
+    width: 1440px;
+    height: 768px;
+    background-image: url(../IMG/bg.png);
+}
+.haeder_box_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_img {
+    width: 101.62px;
+    height: 23px;
+    margin-top: 40px;
+}
+.header_title_h1 {
+    margin-top: 314px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "BebasNeueBold", sans-serif;
+    letter-spacing: 5.71px;
+
+}
+.header_title_p {
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 212px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.header_scroll_p {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    letter-spacing: mixed;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+
+
+
 /* Раздел 'Our Story' */
 .story {
     padding: 50px 0;
@@ -84,6 +137,8 @@ body {
     background-image: url(../IMG/Bitmap3.png);
     margin-right: 0;
 }
+
+/* Медиа запросы */
 @media screen and (max-width: 1440px) {
     .container {
         padding: 0 50px;
