@@ -275,6 +275,7 @@ body {
 .services__body {
     display: flex;
     gap: 28px;
+    padding-bottom: 114px;
 }
 .services__body-block1 {
     width: 295px;
@@ -345,4 +346,66 @@ body {
 .city_block_btn:hover {
     background-color: #036c96;
 }
+
+/* Блок Signup */
+
+.container__signup {
+    max-width: 1440px;
+    min-height: 100px;
+    background-color: #171819;
+    margin: 0 auto;
+}
+.signup_box {
+    display: flex;
+    justify-content: space-between;
+}
+.signup__box-text {
+    margin-left: 378px;
+    padding-top: 16px;
+}
+.signup_box_h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.85px; 
+    color: #FFFFFF;
+
+}
+.signup__box-form {
+    margin-right: 372px;
+    padding-top: 14px;
+}
+.signup_input {
+    color: #979797;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    padding-left: 18px;
+}
+input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.signup-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 2px 0 0 0;
+    margin-top: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width: 1024px) {
+    .signup_box {
+        flex-direction: column;
+    }
+}
+
 
